@@ -1,6 +1,6 @@
 package Ques_5;
 
-public class Student {
+class Student implements Comparable<Student>{
     String name;
     int rn, mark;
 
@@ -10,6 +10,17 @@ public class Student {
         this.mark = mark;
     }
 
-    
+    public String toString(){
+        return "Name: " + this.name + "\tRoll no.: " + this.rn + "\tMarks: " + this.mark;
+    }
+
+    public int compareTo(Student other){
+        if(this.rn<other.rn)
+            return -1;
+        else if (this.rn==other.rn)
+            return 0;
+        else
+            return 1;
+    }
 
 }
