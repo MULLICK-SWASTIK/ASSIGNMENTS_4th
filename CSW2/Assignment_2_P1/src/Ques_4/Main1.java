@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main1 {
     public static void main(String[]args){
         Scanner k=new Scanner(System.in);
-        System.out.println("How students to enter? ");
+        System.out.println("How many students to enter? ");
         Student []students=new Student[k.nextInt()];
         System.out.println("\nEnter student details: ");
         String name,s_name;
@@ -29,7 +29,7 @@ public class Main1 {
         Student s_student=new Student(s_name,s_rn,s_totalMark);
         boolean isFound = false;
         for (int i=0;i<students.length;i++){
-            if (students[i]==s_student){
+            if (students[i].equals(s_student)){
                 isFound=true;
                 break;
             }
