@@ -27,6 +27,7 @@ public class Ques_5_driver {
         for (Student s : students) {
             System.out.println(s);
         }
+        k.close();
     }
 }
 //OUTPUT
