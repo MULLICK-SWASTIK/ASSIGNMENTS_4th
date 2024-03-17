@@ -20,6 +20,7 @@ public class Main1 {
             System.out.println("\nEnter next set of data.....");
         }
         System.out.print("Enter searching details: \nEnter name: ");
+        k.nextLine();
         s_name=k.nextLine();
         System.out.print("Enter roll number: ");
         s_rn=k.nextInt();
