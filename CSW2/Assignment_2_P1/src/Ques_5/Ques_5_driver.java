@@ -1,7 +1,7 @@
 package Ques_5;
 
 import java.util.Scanner;
-import java.util.Arrays;
+// import java.util.Arrays;
 
 public class Ques_5_driver {
     public static void main(String[] args) {
