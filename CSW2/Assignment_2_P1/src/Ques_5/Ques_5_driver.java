@@ -22,7 +22,21 @@ public class Ques_5_driver {
             students[i] = new Student(name, rn, mark);
             System.out.println("Entry updated.....");
         }
-        Arrays.sort(students);
+        // Arrays.sort(students);
+        for (int i = 0; i < students.length; i++) {
+            boolean b = false;
+            for (int j = 0; j < students.length - 1 - i; j++) {
+                if (students[j].compareTo(students[j + 1]) > 0) {
+                    Student temp = students[j];
+                    students[j] = students[j + 1];
+                    students[j + 1] = temp;
+                    b = true;
+                }
+            }
+            if (!b)
+                break;
+        }
+
         System.out.println("\nSorted student list:-");
         for (Student s : students) {
             System.out.println(s);
@@ -30,7 +44,7 @@ public class Ques_5_driver {
         k.close();
     }
 }
-//OUTPUT
+// OUTPUT
 // How many students to enter? 5
 
 // Enter student details:
@@ -61,8 +75,8 @@ public class Ques_5_driver {
 // Entry updated.....
 
 // Sorted student list:-
-// Name: s2        Roll no.: 1     Marks: 2
-// Name: s5        Roll no.: 2     Marks: 5
-// Name: s4        Roll no.: 4     Marks: 4
-// Name: s1        Roll no.: 6     Marks: 1
-// Name: s3        Roll no.: 8     Marks: 3
+// Name: s2 Roll no.: 1 Marks: 2
+// Name: s5 Roll no.: 2 Marks: 5
+// Name: s4 Roll no.: 4 Marks: 4
+// Name: s1 Roll no.: 6 Marks: 1
+// Name: s3 Roll no.: 8 Marks: 3
