@@ -26,6 +26,11 @@ public class Ques_4_driver {
             System.out.println("Next entry.......");
             k.nextLine();
         }
+        System.out.println("\nStudent List:-\n");
+        for(Student s:studentList){
+            System.out.println(s);
+        }
+        
 
     }
 }

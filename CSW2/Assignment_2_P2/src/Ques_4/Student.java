@@ -33,4 +33,9 @@ class Student {
     public void setMark(int mark) {
         this.mark = mark;
     }
+
+    public String toString(){
+        return "Name: "+this.name+"\t Age: "+this.age+"\t Mark: "+this.mark;
+    }
+
 }
