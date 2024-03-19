@@ -34,6 +34,9 @@ public class RabinKarp {
             if (s < n - m) {
                 t = (d * (t - (T.charAt(s + 1) - 48) * h) + (T.charAt(s + m) - 48)) % q;
                 System.out.println(t);
+                if (t<0){
+                    t+=q;
+                }
             }
         }
 
