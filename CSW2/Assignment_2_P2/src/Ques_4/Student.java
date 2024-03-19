@@ -38,4 +38,7 @@ class Student {
         return "Name: "+this.name+"\t Age: "+this.age+"\t Mark: "+this.mark;
     }
 
+    public boolean equals(Student s){
+        return (this.name.equals(s.name))&&(this.age==s.age)&&(this.mark==s.mark);
+    }
 }
