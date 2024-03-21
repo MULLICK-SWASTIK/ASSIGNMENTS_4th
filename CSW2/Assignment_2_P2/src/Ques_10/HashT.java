@@ -2,15 +2,15 @@ package Ques_10;
 import java.util.Hashtable;
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class HashT {
     @SuppressWarnings({ "resource", "rawtypes" })
     public static void main(String[]args){
-        Scanner k=new Scanner(System.in);
-        System.out.println("Enter a sentence to evaluate: ");
-        String sentence=k.nextLine();
-        // String sentence="After a long day of hiking through the dense forest, forest sounds surrounded us, echoing through the trees, trees that stood tall and majestic, providing shelter and shade along the winding trails.";
+        // Scanner k=new Scanner(System.in);
+        // System.out.println("Enter a sentence to evaluate: ");
+        // String sentence=k.nextLine();
+        String sentence="After a long day of hiking through the dense forest, forest sounds surrounded us, echoing through the trees, trees that stood tall and majestic, providing shelter and shade along the winding trails.";
         String words[]=sentence.split(" ");
         Hashtable<String, Integer> ht= new Hashtable<String, Integer>();
         ArrayList<String> al=new ArrayList<>();
@@ -32,3 +32,6 @@ public class HashT {
         
     }
 }
+//OUTPUT
+// Most frequent word: 
+// the
