@@ -20,3 +20,8 @@ public class PriQueue {
         }
     }
 }
+//OUTPUT
+// Min-Heap:-
+// 1 2 3 5 7 10 4 8 6 9 
+// Removal Sequence:    
+// 1 2 3 4 5 6 7 8 9 10
