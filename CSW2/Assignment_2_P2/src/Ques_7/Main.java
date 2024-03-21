@@ -32,3 +32,20 @@ public class Main {
         }
     }
 }
+//OUTPUT
+// Enter prompted details:-
+// Enter name of a person: Swastik Mullick
+// Enter plot number: 464/B
+// Enter locality: Kalyan Nagar
+// Enter post office: Pansila
+// Continue adding data? (y/n)
+// y
+// Enter name of a person: Ayushman Lal
+// Enter plot number: 84C
+// Enter locality: Palta
+// Enter post office: Barrackpore
+// Continue adding data? (y/n)
+// n
+// Name ---- Address
+// Ayushman Lal ---- [Plot no.: 84C, At: Palta, Post: Barrackpore]
+// Swastik Mullick ---- [Plot no.: 464/B, At: Kalyan Nagar, Post: Pansila]
