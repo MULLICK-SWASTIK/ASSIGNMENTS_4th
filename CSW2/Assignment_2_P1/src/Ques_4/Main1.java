@@ -34,7 +34,7 @@ public class Main1 {
         int isFound = 0;
         for (int i = 0; i < students.length; i++) {
             isFound = students[i].compareTo(s_student);
-            System.out.println(isFound);
+            // System.out.println(isFound);
             if (isFound == 1) {
                 break;
             }
@@ -47,3 +47,33 @@ public class Main1 {
     }
 
 }
+//OUTPUT
+// How many students to enter? 
+// 3
+
+// Enter student details: 
+
+// Enter name: Swastik Mullick
+// Enter roll number: 43
+// Enter total marks: 98
+
+// Details updated......
+
+// Enter name: Ayushman Lal
+// Enter roll number: 25
+// Enter total marks: 87
+
+// Details updated......
+
+// Enter name: Suvomoy Goswami
+// Enter roll number: 50
+// Enter total marks: 65
+
+// Details updated......
+
+// Enter searching details:
+// Enter name: Swastik Mullick
+// Enter roll number: 43
+// Enter total marks: 98
+
+// Student found
