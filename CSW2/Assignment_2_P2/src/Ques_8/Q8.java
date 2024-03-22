@@ -6,6 +6,7 @@ import java.util.HashMap;
 public class Q8 {
     public static void main(String[] args) {
         String str1 = "silent", str2 = "listen";
+        System.out.println("Word 1: "+str1+"\nWord 2: "+str2);
         HashMap<Character, Integer> anag = new HashMap<>();
         if (str1.length() == str2.length()) {
             for (int i = 0; i < str1.length(); i++) {
@@ -14,7 +15,7 @@ public class Q8 {
                 else
                     anag.put(str1.charAt(i), 1);
             }
-            System.out.println("Hash map of first string: \n"+anag);
+            System.out.println("\nHash map of first string: \n"+anag);
             for (int i = 0; i < str2.length(); i++) {
                 if (anag.containsKey(str2.charAt(i)))
                     anag.put(str2.charAt(i), anag.get(str2.charAt(i)) - 1);
@@ -35,6 +36,9 @@ public class Q8 {
     }
 }
 //OUTPUT
+//Word 1: silent
+//Word 2: listen
+
 // Hash map of first string: 
 // {s=1, t=1, e=1, i=1, l=1, n=1}
 
