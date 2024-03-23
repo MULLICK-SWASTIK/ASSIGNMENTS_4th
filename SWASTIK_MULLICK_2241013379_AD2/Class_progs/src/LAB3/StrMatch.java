@@ -12,7 +12,7 @@ public class StrMatch {
         for (int i = 0; i < m - 1; i++) {
             s1.append(text.charAt(i));
         }
-        for (int i = 0; i < n - m; i++) {
+        for (int i = 0; i < n - m + 1; i++) {
             s1.append(text.charAt(i + m - 1));
             if (s1.compareTo(patt) == 0) {
                 InList.add(i);
