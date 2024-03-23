@@ -9,9 +9,9 @@ public class RabinKarp {
             t = 0;
         // h=1;
 
-        // for (int i=0;i<m-1;i++){
-        // h=(h*d)%q;
-        // }
+        for (int i=0;i<m-1;i++){
+        h=(h*d)%q;
+        }
 
         for (int i = 0; i < m; i++) { //0 to 4
             p = (d * p + (P.charAt(i) - 48)) % q; //0: (10*0 + 3) % 13 = 3;  1: 
@@ -19,7 +19,7 @@ public class RabinKarp {
         }
         // System.out.println(p + " " + t);
 
-        for (int s = 0; s < n - m; s++) {
+        for (int s = 0; s < n - m + 1; s++) {
             if (t == p) {
                 boolean flag = true;
                 for (int j = 0; j < m; j++) {
@@ -28,7 +28,7 @@ public class RabinKarp {
                     }
                 }
                 if (flag == true) {
-                    System.out.println(s);
+                    System.out.println("Found at index: "+s);
                 }
             }
             if (s < n - m) {
