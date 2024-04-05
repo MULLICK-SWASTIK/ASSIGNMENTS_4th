@@ -24,6 +24,7 @@ public class huffCode {
         }
         System.out.println("Huffman Encoding--");
         obj.display(ob.poll(), "");
+        sc.close();
     }
 
     void display(Node root, String s) {
