@@ -6,6 +6,7 @@ public class GCDemo1 {
     public static void main(String[] args) {
         testMethod1();
         System.gc();
+        System.runFinalization();
     }
 
     public GCDemo1(String myObject) {

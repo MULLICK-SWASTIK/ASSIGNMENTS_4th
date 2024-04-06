@@ -24,6 +24,7 @@ public class Employee {
         e5=null;
         showNextId();
         System.gc();
+        System.runFinalization();
         showNextId();
     }
 
