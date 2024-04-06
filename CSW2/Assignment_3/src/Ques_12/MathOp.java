@@ -22,7 +22,7 @@ public class MathOp {
                         throw new ArithmeticException("Division by zero error");
                     } else {
                         double result = sqrt / denom;
-                        System.out.println(String.format("sqrt(abs(sin(%1$s)*cos(%1$s)))/(tan(%1$s)+1) = %2$s", x, result));
+                        System.out.println(String.format("sqrt(abs(sin(%1$s) * cos(%1$s))) / (tan(%1$s) + 1) = %2$s", x, result));
                     }
                 }
             }
