@@ -53,4 +53,51 @@ public class StrBuild {
 }
 /*
  * OUTPUT-------------------------------------------
+ * ****MENU****
+0: Exit
+1: Concatenate another string at the end       
+2: Remove a range of characters from the string
+3: Modify a character at a specified index     
+4: Add a substring at a specified position     
+Enter choice: 1
+Add string: rt63v  
+After append: rt63v
+
+****MENU****
+0: Exit
+1: Concatenate another string at the end       
+2: Remove a range of characters from the string
+3: Modify a character at a specified index     
+4: Add a substring at a specified position     
+Enter choice: 2
+Delete from index1 to index2: 0 3
+After delete: 3v
+
+****MENU****
+0: Exit
+1: Concatenate another string at the end       
+2: Remove a range of characters from the string
+3: Modify a character at a specified index     
+4: Add a substring at a specified position     
+Enter choice: 3
+Enter index and character: 0 o
+After modify: ov
+
+****MENU****
+0: Exit
+1: Concatenate another string at the end
+2: Remove a range of characters from the string
+3: Modify a character at a specified index
+4: Add a substring at a specified position
+Enter choice: 4
+Insert index and string: 0 bsdk
+After insert: bsdkov
+
+****MENU****
+0: Exit
+1: Concatenate another string at the end
+2: Remove a range of characters from the string
+3: Modify a character at a specified index
+4: Add a substring at a specified position
+Enter choice: 0
  */
