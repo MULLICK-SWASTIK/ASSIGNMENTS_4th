@@ -6,7 +6,7 @@ recursively using a binary search algorithm.
  */
 package Ques_5;
 
-public class Q5 {
+public class eleBST {
     public static void main(String[] args) {
         int arr[] = { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 };
         Q5 obj = new Q5();
