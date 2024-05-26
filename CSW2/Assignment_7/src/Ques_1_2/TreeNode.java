@@ -1,5 +1,5 @@
 package Ques_1_2;
-class TreeNode {
+public class TreeNode {
     int info;
     TreeNode left;
     TreeNode right;
