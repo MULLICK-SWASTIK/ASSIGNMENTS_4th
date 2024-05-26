@@ -9,18 +9,6 @@ package Ques_1_2;
 
 import java.util.*;
 
-class TreeNode {
-    int info;
-    TreeNode left;
-    TreeNode right;
-
-    public TreeNode(int info) {
-        this.info = info;
-        this.left = null;
-        this.right = null;
-    }
-}
-
 public class BinSrchTr {
     TreeNode root = null;
 
