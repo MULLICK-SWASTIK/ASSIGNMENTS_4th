@@ -1,8 +1,8 @@
 package Ques_1_2;
 public class TreeNode {
-    int info;
-    TreeNode left;
-    TreeNode right;
+    public int info;
+    public TreeNode left;
+    public TreeNode right;
 
     public TreeNode(int info) {
         this.info = info;
